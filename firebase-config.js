@@ -6,10 +6,10 @@
    Tu peux coller le bloc tel quel, même avec les lignes « import ».
    ============================================================ */
 const firebaseConfig = {
-  apiKey: "COLLE_ICI",
-  authDomain: "COLLE_ICI",
-  projectId: "COLLE_ICI",
-  storageBucket: "COLLE_ICI",
-  messagingSenderId: "COLLE_ICI",
-  appId: "COLLE_ICI"
+  apiKey: "AIzaSyAJDR3kzVB_3YsY7M-teShk2aw0LgKjkxk",
+  authDomain: "morning-evening-routine.firebaseapp.com",
+  projectId: "morning-evening-routine",
+  storageBucket: "morning-evening-routine.firebasestorage.app",
+  messagingSenderId: "882312503914",
+  appId: "1:882312503914:web:5bce8f959c7d746b5ce013"
 };

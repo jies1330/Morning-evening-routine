@@ -1,9 +1,9 @@
 /* ============================================================
    Pépin — service worker : l'app s'ouvre même sans réseau.
-   Version a785376916 (change à chaque mise à jour des fichiers).
+   Version 061e43f4c1 (change à chaque mise à jour des fichiers).
    ============================================================ */
-const CACHE = 'pepin-a785376916';
-const ASSETS = ["./", "index.html", "firebase.js", "firebase-config.js", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/favicon-32.png", "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "fonts/grandstander-latin-700-normal.woff2", "fonts/grandstander-latin-800-normal.woff2", "fonts/grandstander-latin-900-normal.woff2", "fonts/nunito-latin-600-normal.woff2", "fonts/nunito-latin-700-normal.woff2", "fonts/nunito-latin-800-normal.woff2", "fonts/nunito-latin-900-normal.woff2"];
+const CACHE = 'pepin-061e43f4c1';
+const ASSETS = ["./", "index.html", "firebase.js", "firebase-config.js", "manifest.webmanifest", "apple-touch-icon.png", "favicon-32.png", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "grandstander-latin-700-normal.woff2", "grandstander-latin-800-normal.woff2", "grandstander-latin-900-normal.woff2", "nunito-latin-600-normal.woff2", "nunito-latin-700-normal.woff2", "nunito-latin-800-normal.woff2", "nunito-latin-900-normal.woff2"];
 const at = (p) => new URL(p, self.registration.scope).href;
 
 self.addEventListener('install', (event) => {
